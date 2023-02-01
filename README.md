@@ -69,10 +69,54 @@ The dataset used is from Kaggle.com and contains data of 303 patients that may b
 
 This model is neither precise nor accurate with a likelihood of many false negatives and false positives.​
 
+K-Nearest Neighbor Results
+Our classification reports suggests our K-Nearest Neighbors model is neither precise nor accurate. The model's ability to predict a high risk and low risk patient is roughly the same, with a range of 55 - .57, while the range of precision, is much greater for the two classification sets. For the heatmap above, total training set size = 91 patients. the results are explained as follows:
+
+Upper left quadrant #1: represents patients who were at low risk for a heart attack, and our model predicted they were low risk. Of the 52 low risk patients, the model only accurately predicted 27 of them.
+
+Upper right quadrant #2: represents patients who were at low risk for a heart attack, but our model predicted they were at a high risk of a heart attack. Of the 52 low risk patients, the model incorrectly predicted 25 of them.
+
+Lower left quadrant #3: represents patients who were at a high risk of heart attack, but our model incorrectly predicted they were low risk. Of the 39 low risk patients, the model incorrectly predicted 15 of them.
+
+Lower right quadrant #4: represents patients who were at a high risk of a heart attack, and our model accurately predicted they were at a high risk of a heart attack. Of the 39 low risk patients, the model correctly predicted 24 of them.
+
 ##### Random Forest Classifier
 
 ![image](https://user-images.githubusercontent.com/31902746/216193516-086061e9-b3b4-4c4e-a91c-cf62ee6e8353.png)
 
 ![download (1)](https://user-images.githubusercontent.com/31902746/216193552-1e8d7ec0-de62-4045-bb1d-ffd514ce5d36.png)
 
+![image](https://user-images.githubusercontent.com/31902746/216193865-75a60edf-5a85-47ed-bc31-6a4e49ff7dc2.png)
 
+
+Random Forest Classifier Results:
+The Random forest classifier is a noticeable improvement over the K-Nearest Neighbour method. Our classification reports demonstrate that we're slightly more precise with our low risk classification, a trend which continues to propagate since our KNN report. We also notice that our accuracy is roughly similar, with a range of .87 - .90. In context, for every 9 out of 10 patients we are presented with, our random forest classifier will give the correct classification. Total patient test size equals 91 patients. We decided to visualize this information, in the heatmap above:
+
+Upper left quadrant #1: represents patients who were at low risk for a heart attack, and our model predicted they were low risk. Of the 52 low risk patients, the model correctly predicted 45 of them.
+
+Upper right quadrant #2: represents patients who were at low risk for a heart attack, but our model predicted they were at a high risk of a heart attack. Of the 52 low risk patients, the model incorrectly predicted 7 of them.
+
+Lower left quadrant #3: represents patients who were at a high risk of heart attack, but our model incorrectly predicted they were low risk. Of the 39 low risk patients, the model incorrectly predicted 4 of them.
+
+Lower right quadrant #4: represents patients who were at a high risk of a heart attack, and our model accurately predicted they were at a high risk of a heart attack. Of the 52 low risk patients, the model correctly predicted 35 of them.
+
+** Note that we have a low number of patients in quadrants 2 and 3, which tell us our model is fairly accurate.
+
+##### Logisitic Regression
+
+![image](https://user-images.githubusercontent.com/31902746/216194015-2d9246e0-82bc-4b7b-b26e-ab38fa95e0a0.png)
+
+![download (2)](https://user-images.githubusercontent.com/31902746/216194025-ecb1c0f5-6dcb-4b7e-a0a2-39000305cb09.png)
+
+![image](https://user-images.githubusercontent.com/31902746/216194104-db90d4c4-2c55-485e-b17d-30de2653a570.png)
+
+Logistic Regression Results:
+Directing attention to the quantative results, produced by the classifcation report, Logistic Regression fall's between K-Nearest Neighbor (KNN) and Random Forest Classifer (RFC), which it is nearly idential. Although, LR clusters near RFC. The model's precision is also similar to RFC, although it falls short when prompted to classify patients who are at low risk of a heart attack. We have a noticable increase in incorrect classification here, indicating that if patients were to rely on this model, they would have a false positive, and potentially act on an incorrect diagnosis.
+
+Upper left quadrant #1: represents patients who were at low risk for a heart attack, and our model predicted they were low risk. Of the 52 low risk patients, the model correctly predicted 39 of them.
+
+Upper right quadrant #2: represents patients who were at low risk for a heart attack, but our model predicted they were at a high risk of a heart attack. Of the 52 low risk patients, the model incorrectly predicted 13 of them.
+
+Lower left quadrant #3: represents patients who were at a high risk of heart attack, but our model incorrectly predicted they were low risk. Of the 39 low risk patients, the model incorrectly predicted 3 of them.
+
+Lower right quadrant #4: represents patients who were at a high risk of a heart attack, and our model accurately predicted they were at a high risk of a heart attack. Of the 52 low risk patients, the model correctly predicted 36 of them.
