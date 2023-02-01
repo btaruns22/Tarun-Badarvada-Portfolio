@@ -4,7 +4,6 @@
 
 ## Personal & Academic Projects
 
-
 -------------------------------------------------------------------------------------------------------------------------------
 ### Is Cinema Back to Normal?
 
@@ -46,3 +45,34 @@ Box Office Mojo Weekends 2022: https://www.boxofficemojo.com/weekend/?ref_=bo_nb
 ## Presentation Slides
 
 https://docs.google.com/presentation/d/1OtkcrwYwRG1nxtYuFE_pcdTRRjoSJSG7tPYnMHGGO4Q/edit?usp=sharing
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+### Can You Predict a Heart Attack Before it Happens?
+
+#### Introduction
+"Heart disease is the leading cause of death for men, women, and people of most racial and ethnic groups in the United States,” according to the CDC. Heart disease take countless lives each year and costs the U.S. billions of dollars in health care and lost productivity. In the U.S., the most common type of heart disease leads to heart attack, making it an important target for prevention as a dangerous outcome of heart disease. Key to prevention and treatment of heart disease is the ability to predict its onset, which can be represented by heart attack risk. Given the urgent need for heart disease prevention and the wide clinical applications of prediction models since the rise of precision medicine, we aimed to build a model that could accurately predict an individual’s risk of heart attack, identify other target areas for preventative care, and generally help spread awareness of the importance of heart disease prevention.
+
+#### Methodology
+The dataset used is from Kaggle.com and contains data of 303 patients that may be relevant to heart attack risk, including their true heart attack risk. The dataset offers measures such as age, sex, chest pain type (an indicator of blood supply to the heart), resting electrocardiographic results, resting blood pressure, and cholesterol, max heart rate achieved, which contribute to the final target attributes indicating whether the patient's chances of getting a heart attack. The data contains 303 rows and 14 columns, representing 303 patients and 14 variables. To prepare our dataset, we imported our dataset from a .csv file as a Pandas DataFrame. We found the columns “caa”, “cp”, and “restecg” represented categorical variables but were given as "INT64" values. Thus, we used pd.get_dummies() to convert the label vectors into one-hot vectors. For our analysis, we explored three different algorithms to predict whether an individual is at more (1) or less (0) risk of having a heart attack. For training our model, we will split dataset using sklearn’s train_test_split library and used 70% of the data as our training set and 30% for our testing set. Once our data was split, we trained each algorithm: K Nearest Neighbor, Logistic Regression, Random Forest Classification. We then compiled prediction accuracy scores, confusion matrices, and classification reports for each model.
+
+#### Results & Evaluations
+
+##### KNN Classifier
+
+![image](https://user-images.githubusercontent.com/31902746/216193117-f98b89cc-4342-43ea-857a-2f163054b8c8.png)
+
+![download](https://user-images.githubusercontent.com/31902746/216193138-4c4897f8-94ef-49a1-8ba7-cc4952afcf71.png)
+
+![image](https://user-images.githubusercontent.com/31902746/216193411-6edc3330-a425-43eb-8571-72b22573ea2e.png)
+
+This model is neither precise nor accurate with a likelihood of many false negatives and false positives.​
+
+##### Random Forest Classifier
+
+![image](https://user-images.githubusercontent.com/31902746/216193516-086061e9-b3b4-4c4e-a91c-cf62ee6e8353.png)
+
+![download (1)](https://user-images.githubusercontent.com/31902746/216193552-1e8d7ec0-de62-4045-bb1d-ffd514ce5d36.png)
+
+
