@@ -30,8 +30,16 @@ Box Office Mojo Weekends 2022: https://www.boxofficemojo.com/weekend/?ref_=bo_nb
 
 ![image](https://user-images.githubusercontent.com/31902746/216191621-88041ec5-a63a-4e67-aecd-1d1898d1fd1b.png)
 
+![image](https://user-images.githubusercontent.com/31902746/216191808-cb7e02af-13aa-4a1c-bcc7-20c5895ee0ed.png)
+
+![image](https://user-images.githubusercontent.com/31902746/216191846-60363616-9dbd-4b3c-ab3d-95b5ceccfa49.png)
+
+![image](https://user-images.githubusercontent.com/31902746/216191899-795bb0d5-ec63-4829-9781-8ab127c28a94.png)
 
 ![image](https://user-images.githubusercontent.com/31902746/216191459-be76cc30-d295-4a00-b541-b89cf3d51944.png)
+
+![image](https://user-images.githubusercontent.com/31902746/216191959-c4ff084d-1dd4-4e80-873e-da03d42882db.png)
+
 
 
 
