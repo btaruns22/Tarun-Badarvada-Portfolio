@@ -1,4 +1,4 @@
-# Tarun-Badarvada
+# Tarun Badarvada
 
 
 ## Personal & Academic Projects
