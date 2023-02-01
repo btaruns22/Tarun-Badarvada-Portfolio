@@ -1,6 +1,6 @@
 # Tarun Badarvada Portfolio
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 ## Personal & Academic Projects
 
@@ -26,6 +26,9 @@ Box Office Mojo: https://www.boxofficemojo.com/
 Box Office Mojo Weekends 2022: https://www.boxofficemojo.com/weekend/?ref_=bo_nb_di_secondarytab
 
 -------------------------------------------------------------------------------------------------------------------------------
+![Is Cinema Back to Normal_](https://user-images.githubusercontent.com/31902746/216190826-888faf88-9fce-41b5-b7dc-f17a4049fa75.jpg)
+
+
 
 
 ## Presentation Slides
