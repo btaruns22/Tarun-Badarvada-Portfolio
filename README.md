@@ -1,2 +1,2 @@
-# Tarun-Badavrada-Portfolio
+# Tarun-Badarvada-Portfolio
 My Portfolio
