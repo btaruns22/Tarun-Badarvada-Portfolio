@@ -26,17 +26,10 @@ Box Office Mojo: https://www.boxofficemojo.com/
 Box Office Mojo Weekends 2022: https://www.boxofficemojo.com/weekend/?ref_=bo_nb_di_secondarytab
 
 -------------------------------------------------------------------------------------------------------------------------------
-![Is Cinema Back to Normal_ (1)](https://user-images.githubusercontent.com/31902746/216191092-130030e4-940f-4c29-8615-96a91b147f5d.jpg)
+![image](https://user-images.githubusercontent.com/31902746/216191573-9b92a81a-8772-4ae8-bb25-5bad92e427dc.png)
 
-![Is Cinema Back to Normal_ (2)](https://user-images.githubusercontent.com/31902746/216191167-1fb230e6-1e69-46e8-8ab0-c4de1a92bcf2.jpg)
+![image](https://user-images.githubusercontent.com/31902746/216191621-88041ec5-a63a-4e67-aecd-1d1898d1fd1b.png)
 
-![Is Cinema Back to Normal_](https://user-images.githubusercontent.com/31902746/216190943-6fa4726a-2c20-4fc4-a264-67920dfa51d2.png)
-
-![Is Cinema Back to Normal_ (3)](https://user-images.githubusercontent.com/31902746/216191301-152ce836-758c-49f3-8924-e6e376a21f1f.jpg)
-
-![Is Cinema Back to Normal_ (4)](https://user-images.githubusercontent.com/31902746/216191353-6beccc3f-0502-4c5f-b095-e5be422dcbc8.jpg)
-
-![Is Cinema Back to Normal_ (5)](https://user-images.githubusercontent.com/31902746/216191411-e4f4196f-2981-407d-bc4c-1270c7a517cd.jpg)
 
 ![image](https://user-images.githubusercontent.com/31902746/216191459-be76cc30-d295-4a00-b541-b89cf3d51944.png)
 
