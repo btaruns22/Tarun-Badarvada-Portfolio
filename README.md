@@ -1,9 +1,10 @@
-# Tarun Badarvada
+# Tarun Badarvada Portfolio
 
 
 ## Personal & Academic Projects
 
 
+-------------------------------------------------------------------------------------------------------------------------------
 ### Is Cinema Back to Normal?
 
 #### Goal and significance related to data science/data analytics
@@ -14,3 +15,18 @@ After taking a look at past box office data, we want to know what we can expect 
 
 Through research and data analysis, we hope to determine whether the movie industry will be able to recover to pre-COVID levels. We will also analyze data to predict gross sales based on specific movie genres. Our group will look at box office sales from before and after COVID and see if there are any methods to predict future ticket sales. 
 For analyzing the pre-covid box office data, we can take the average weekend ticket sales from 2015 to 2019 and use that as a benchmark for pre-pandemic data. Then for the post-covid data, we can take all the weekend box office opening across 2020, 2021, and 2022 to compare against the pre-pandemic data. We’ll be getting most of our data from BoxOfficeMojo.com to get all our box office numbers
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+## Sources:
+
+Box Office Mojo: https://www.boxofficemojo.com/
+
+Box Office Mojo Weekends 2022: https://www.boxofficemojo.com/weekend/?ref_=bo_nb_di_secondarytab
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+## Presentation Slides
+
+https://docs.google.com/presentation/d/1OtkcrwYwRG1nxtYuFE_pcdTRRjoSJSG7tPYnMHGGO4Q/edit?usp=sharing
