@@ -1,5 +1,3 @@
-gem "minima"
-
 # Tarun Badarvada Portfolio
 
 
