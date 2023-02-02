@@ -1,4 +1,4 @@
-theme: minima
+gem "minima"
 
 # Tarun Badarvada Portfolio
 
